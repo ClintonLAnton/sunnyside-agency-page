@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.hero__container {
+    background-image: url(images/mobile/image-header.jpg);
+    height: 65vh;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.875rem 1.375rem;
+}
+
+.menu__icon:hover {
+    cursor: pointer;
+}
+
+.hero__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 4rem;
+}
+
+.hero__content h1 {
+    font-family: 'Fraunces', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    letter-spacing: .5rem;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+}
+
+.down__arrow {
+    padding-top: 2.7rem;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.col img {
+    width: 100%;
+}
+
+.col__content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    height: 27.18rem;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.col__content h2 {
+    font-weight: 900;
+    font-size: 2rem;
+    font-family: 'Fraunces', sans-serif;
+    padding: 0 3rem;
+}
+
+.col__content p {
+    font-size: 1.125rem;
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.7;
+    color: hsl(232, 10%, 55%);
+    padding: 0 1.5rem;
+}
+
+.anchor {
+    text-decoration: none;
+    color: black;
+    font-family: 'Fraunces', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.col__3 {
+    height: 37.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.col__3 h2 {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 900;
+    font-size: 1.8rem;
+    color: hsl(167, 40%, 24%);
+}
+
+.col__3 p {
+    font-size: 1rem;
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.7;
+    padding: 1.875rem 1.3rem 3.6rem 1.3rem;
+    text-align: center;
+}
+
+.cherry h2, p {
+    color: hsl(167, 40%, 24%);
+}
+
+.orange h2 , p {
+    color: hsl(198, 62%, 26%);
+}
+
+.cherry {
+    background-image: url(images/mobile/image-graphic-design.jpg);
+    background-size: cover;
+}
+
+.orange {
+    background-image: url(images/mobile/image-photography.jpg);
+    background-size: cover;
+}
+
+.column__4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 78.75rem;
+}
+
+.column__4 h3 {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 1rem;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: hsl(210, 4%, 67%);
+    padding-top: 1rem;
+}
+
+.col__4 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 1.5rem;
+}
+
+.portrait__img {
+    border-radius: 50%;
+    height: 4.68rem;
+    width: 4.68rem;
+}
+
+.portrait {
+    padding-bottom: 2rem;
+}
+
+.quote {
+    font-size: 1.12rem;
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.7;
+    color: hsl(213, 9%, 39%);
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.name {
+    font-size: 1.1rem;
+    color: black;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 900;
+    padding-bottom: 1rem;
+}
+
+.title {
+    font-family: 'Barlow', sans-serif;
+    font-size: .9rem;
+    color: hsl(210, 4%, 67%);
+}
+
+.column__5 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col__5__img{
+    width: 50%;
+    height: 50%;
+}
+
+footer {
+    height: 42vh;
+    background: hsl(168, 34%, 65%);
+}
+
