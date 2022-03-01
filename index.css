@@ -274,14 +274,14 @@ footer a {
 }
 
 .footer__about {
-    width: 100%;
-    justify-content: space-between;
-    padding: 2rem;
+    width: 20rem;
+    justify-content: space-around;
+    padding: 3rem 0;
 }
 
 .footer__social {
-    width: 60%;
-    padding: 3rem 1rem;
+    width: 12rem;
+    padding: 2rem 0;
     justify-content: space-evenly;
 }
 
